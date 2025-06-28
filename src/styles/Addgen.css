@@ -1,25 +1,53 @@
-.container{
-    display: grid;
-    grid-auto-flow: column;
-    justify-items: center;
-    background-color: antiquewhite;
-    min-width: 320px;
-    min-height: auto;
-    border: 2px solid yellowgreen;
-    padding: 1rem;
+/* Addgen.css */
+
+/* Container styling */
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.gi{
-    display: grid;
-    border: 2px solid yellowgreen;
-
+/* Section title */
+.container p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
-.display{
-    display: grid;
-    grid-auto-flow: row;
-    border: 2px solid yellowgreen;
+/* Input styling */
+.container input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
 }
-p {
-    color: aliceblue;
+
+/* Display block */
+.display {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e9f5ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading in DisplayInfo */
+.display h3 {
+  margin-bottom: 10px;
+  color: #0077cc;
+  font-size: 1.2rem;
+}
+
+/* Paragraphs in DisplayInfo */
+.display p {
+  font-size: 1rem;
+  margin: 6px 0;
 }
